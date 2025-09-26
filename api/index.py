@@ -1,7 +1,7 @@
 from flask import Flask, request, Response
 import os
 import asyncio
-import google-generativeai as genai
+import google.generativeai as genai
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
